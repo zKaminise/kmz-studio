@@ -1,0 +1,8 @@
+work/
+assets/originals/
+docs/
+tests/
+.env
+.env.*
+*.log
+dist-ssr/

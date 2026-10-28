@@ -1,0 +1,682 @@
+{
+  "acquagyn": {
+    "width": 1122,
+    "height": 1402,
+    "source": "assets/originals/mockups/acquagyn-mockup.png",
+    "variants": [
+      {
+        "file": "acquagyn-320.webp",
+        "width": 320,
+        "height": 400,
+        "bytes": 33920
+      },
+      {
+        "file": "acquagyn-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 61346
+      },
+      {
+        "file": "acquagyn-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 90840
+      },
+      {
+        "file": "acquagyn-1000.webp",
+        "width": 1000,
+        "height": 1250,
+        "bytes": 165262
+      },
+      {
+        "file": "acquagyn-1122.webp",
+        "width": 1122,
+        "height": 1402,
+        "bytes": 191776
+      }
+    ]
+  },
+  "alcar-huma": {
+    "width": 1122,
+    "height": 1402,
+    "source": "assets/originals/mockups/alcar-huma-mockup.png",
+    "variants": [
+      {
+        "file": "alcar-huma-320.webp",
+        "width": 320,
+        "height": 400,
+        "bytes": 23390
+      },
+      {
+        "file": "alcar-huma-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 41260
+      },
+      {
+        "file": "alcar-huma-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 60400
+      },
+      {
+        "file": "alcar-huma-1000.webp",
+        "width": 1000,
+        "height": 1250,
+        "bytes": 107908
+      },
+      {
+        "file": "alcar-huma-1122.webp",
+        "width": 1122,
+        "height": 1402,
+        "bytes": 124880
+      }
+    ]
+  },
+  "brasa": {
+    "width": 1122,
+    "height": 1402,
+    "source": "assets/originals/mockups/brasa-mockup.png",
+    "variants": [
+      {
+        "file": "brasa-320.webp",
+        "width": 320,
+        "height": 400,
+        "bytes": 31648
+      },
+      {
+        "file": "brasa-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 58052
+      },
+      {
+        "file": "brasa-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 87136
+      },
+      {
+        "file": "brasa-1000.webp",
+        "width": 1000,
+        "height": 1250,
+        "bytes": 164620
+      },
+      {
+        "file": "brasa-1122.webp",
+        "width": 1122,
+        "height": 1402,
+        "bytes": 191838
+      }
+    ]
+  },
+  "odontologia-fl": {
+    "width": 1122,
+    "height": 1402,
+    "source": "assets/originals/mockups/odontologia-fl-mockup.png",
+    "variants": [
+      {
+        "file": "odontologia-fl-320.webp",
+        "width": 320,
+        "height": 400,
+        "bytes": 23486
+      },
+      {
+        "file": "odontologia-fl-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 40528
+      },
+      {
+        "file": "odontologia-fl-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 59484
+      },
+      {
+        "file": "odontologia-fl-1000.webp",
+        "width": 1000,
+        "height": 1250,
+        "bytes": 102486
+      },
+      {
+        "file": "odontologia-fl-1122.webp",
+        "width": 1122,
+        "height": 1402,
+        "bytes": 119170
+      }
+    ]
+  },
+  "salon-2-beaute": {
+    "width": 1122,
+    "height": 1402,
+    "source": "assets/originals/mockups/salon-2-beaute-mockup.png",
+    "variants": [
+      {
+        "file": "salon-2-beaute-320.webp",
+        "width": 320,
+        "height": 400,
+        "bytes": 32376
+      },
+      {
+        "file": "salon-2-beaute-480.webp",
+        "width": 480,
+        "height": 600,
+        "bytes": 58082
+      },
+      {
+        "file": "salon-2-beaute-640.webp",
+        "width": 640,
+        "height": 800,
+        "bytes": 84398
+      },
+      {
+        "file": "salon-2-beaute-1000.webp",
+        "width": 1000,
+        "height": 1250,
+        "bytes": 149272
+      },
+      {
+        "file": "salon-2-beaute-1122.webp",
+        "width": 1122,
+        "height": 1402,
+        "bytes": 171164
+      }
+    ]
+  },
+  "alcar-huma-screen": {
+    "width": 1920,
+    "height": 1080,
+    "source": "assets/originals/screenshots/portfolio-1.png",
+    "variants": [
+      {
+        "file": "alcar-huma-screen-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 22056
+      },
+      {
+        "file": "alcar-huma-screen-1000.webp",
+        "width": 1000,
+        "height": 562,
+        "bytes": 42016
+      },
+      {
+        "file": "alcar-huma-screen-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 78800
+      }
+    ]
+  },
+  "full-alcar-huma": {
+    "width": 927,
+    "height": 1920,
+    "file": "full-alcar-huma.webp",
+    "bytes": 155156
+  },
+  "odontologia-fl-screen": {
+    "width": 1920,
+    "height": 1080,
+    "source": "assets/originals/screenshots/portfolio-4.png",
+    "variants": [
+      {
+        "file": "odontologia-fl-screen-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 21470
+      },
+      {
+        "file": "odontologia-fl-screen-1000.webp",
+        "width": 1000,
+        "height": 562,
+        "bytes": 38666
+      },
+      {
+        "file": "odontologia-fl-screen-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 68556
+      }
+    ]
+  },
+  "full-odontologia-fl": {
+    "width": 541,
+    "height": 1920,
+    "file": "full-odontologia-fl.webp",
+    "bytes": 114188
+  },
+  "acquagyn-screen": {
+    "width": 1920,
+    "height": 1080,
+    "source": "assets/originals/screenshots/portfolio-5.png",
+    "variants": [
+      {
+        "file": "acquagyn-screen-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 18432
+      },
+      {
+        "file": "acquagyn-screen-1000.webp",
+        "width": 1000,
+        "height": 562,
+        "bytes": 33846
+      },
+      {
+        "file": "acquagyn-screen-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 59070
+      }
+    ]
+  },
+  "full-acquagyn": {
+    "width": 1099,
+    "height": 1920,
+    "file": "full-acquagyn.webp",
+    "bytes": 119502
+  },
+  "leandro-kaminise-screen": {
+    "width": 1920,
+    "height": 1080,
+    "source": "assets/originals/screenshots/portfolio-2.png",
+    "variants": [
+      {
+        "file": "leandro-kaminise-screen-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 18712
+      },
+      {
+        "file": "leandro-kaminise-screen-1000.webp",
+        "width": 1000,
+        "height": 562,
+        "bytes": 33444
+      },
+      {
+        "file": "leandro-kaminise-screen-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 59132
+      }
+    ]
+  },
+  "leandro-kaminise": {
+    "width": 1920,
+    "height": 1080,
+    "source": "assets/originals/screenshots/portfolio-2.png",
+    "variants": [
+      {
+        "file": "leandro-kaminise-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 6308
+      },
+      {
+        "file": "leandro-kaminise-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 11476
+      },
+      {
+        "file": "leandro-kaminise-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 18712
+      },
+      {
+        "file": "leandro-kaminise-1000.webp",
+        "width": 1000,
+        "height": 562,
+        "bytes": 33444
+      },
+      {
+        "file": "leandro-kaminise-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 59132
+      }
+    ]
+  },
+  "full-leandro-kaminise": {
+    "width": 366,
+    "height": 1920,
+    "file": "full-leandro-kaminise.webp",
+    "bytes": 85362
+  },
+  "clube-das-zizas-screen": {
+    "width": 1905,
+    "height": 938,
+    "source": "assets/originals/screenshots/clube-das-zizas-screen.png",
+    "variants": [
+      {
+        "file": "clube-das-zizas-screen-640.webp",
+        "width": 640,
+        "height": 315,
+        "bytes": 16262
+      },
+      {
+        "file": "clube-das-zizas-screen-1000.webp",
+        "width": 1000,
+        "height": 492,
+        "bytes": 30712
+      },
+      {
+        "file": "clube-das-zizas-screen-1600.webp",
+        "width": 1600,
+        "height": 788,
+        "bytes": 53654
+      }
+    ]
+  },
+  "clube-das-zizas": {
+    "width": 1905,
+    "height": 938,
+    "source": "assets/originals/screenshots/clube-das-zizas-screen.png",
+    "variants": [
+      {
+        "file": "clube-das-zizas-320.webp",
+        "width": 320,
+        "height": 158,
+        "bytes": 5670
+      },
+      {
+        "file": "clube-das-zizas-480.webp",
+        "width": 480,
+        "height": 236,
+        "bytes": 11094
+      },
+      {
+        "file": "clube-das-zizas-640.webp",
+        "width": 640,
+        "height": 315,
+        "bytes": 16262
+      },
+      {
+        "file": "clube-das-zizas-1000.webp",
+        "width": 1000,
+        "height": 492,
+        "bytes": 30712
+      },
+      {
+        "file": "clube-das-zizas-1600.webp",
+        "width": 1600,
+        "height": 788,
+        "bytes": 53654
+      }
+    ]
+  },
+  "full-clube-das-zizas": {
+    "width": 385,
+    "height": 1920,
+    "file": "full-clube-das-zizas.webp",
+    "bytes": 82332
+  },
+  "saldanha-moveis-screen": {
+    "width": 1920,
+    "height": 1080,
+    "source": "assets/originals/screenshots/portfolio-7.png",
+    "variants": [
+      {
+        "file": "saldanha-moveis-screen-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 24864
+      },
+      {
+        "file": "saldanha-moveis-screen-1000.webp",
+        "width": 1000,
+        "height": 562,
+        "bytes": 43902
+      },
+      {
+        "file": "saldanha-moveis-screen-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 78652
+      }
+    ]
+  },
+  "saldanha-moveis": {
+    "width": 1920,
+    "height": 1080,
+    "source": "assets/originals/screenshots/portfolio-7.png",
+    "variants": [
+      {
+        "file": "saldanha-moveis-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 8968
+      },
+      {
+        "file": "saldanha-moveis-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 16486
+      },
+      {
+        "file": "saldanha-moveis-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 24864
+      },
+      {
+        "file": "saldanha-moveis-1000.webp",
+        "width": 1000,
+        "height": 562,
+        "bytes": 43902
+      },
+      {
+        "file": "saldanha-moveis-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 78652
+      }
+    ]
+  },
+  "full-saldanha-moveis": {
+    "width": 484,
+    "height": 1920,
+    "file": "full-saldanha-moveis.webp",
+    "bytes": 124368
+  },
+  "ecos-da-alma-screen": {
+    "width": 1920,
+    "height": 1080,
+    "source": "assets/originals/screenshots/portfolio-3.png",
+    "variants": [
+      {
+        "file": "ecos-da-alma-screen-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 18346
+      },
+      {
+        "file": "ecos-da-alma-screen-1000.webp",
+        "width": 1000,
+        "height": 562,
+        "bytes": 33218
+      },
+      {
+        "file": "ecos-da-alma-screen-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 58882
+      }
+    ]
+  },
+  "ecos-da-alma": {
+    "width": 1920,
+    "height": 1080,
+    "source": "assets/originals/screenshots/portfolio-3.png",
+    "variants": [
+      {
+        "file": "ecos-da-alma-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 6394
+      },
+      {
+        "file": "ecos-da-alma-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 11656
+      },
+      {
+        "file": "ecos-da-alma-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 18346
+      },
+      {
+        "file": "ecos-da-alma-1000.webp",
+        "width": 1000,
+        "height": 562,
+        "bytes": 33218
+      },
+      {
+        "file": "ecos-da-alma-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 58882
+      }
+    ]
+  },
+  "full-ecos-da-alma": {
+    "width": 510,
+    "height": 1920,
+    "file": "full-ecos-da-alma.webp",
+    "bytes": 72044
+  },
+  "salon-2-beaute-screen": {
+    "width": 1265,
+    "height": 712,
+    "source": "assets/originals/screenshots/portfolio-salon.jpg",
+    "variants": [
+      {
+        "file": "salon-2-beaute-screen-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 32466
+      },
+      {
+        "file": "salon-2-beaute-screen-1000.webp",
+        "width": 1000,
+        "height": 563,
+        "bytes": 56682
+      },
+      {
+        "file": "salon-2-beaute-screen-1265.webp",
+        "width": 1265,
+        "height": 712,
+        "bytes": 77508
+      }
+    ]
+  },
+  "brasa-screen": {
+    "width": 1265,
+    "height": 712,
+    "source": "assets/originals/screenshots/portfolio-brasa.jpg",
+    "variants": [
+      {
+        "file": "brasa-screen-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 42632
+      },
+      {
+        "file": "brasa-screen-1000.webp",
+        "width": 1000,
+        "height": 563,
+        "bytes": 77346
+      },
+      {
+        "file": "brasa-screen-1265.webp",
+        "width": 1265,
+        "height": 712,
+        "bytes": 104358
+      }
+    ]
+  },
+  "bkm-tcg": {
+    "width": 1265,
+    "height": 712,
+    "source": "assets/originals/screenshots/bkm-tcg-screen.png",
+    "variants": [
+      {
+        "file": "bkm-tcg-320.webp",
+        "width": 320,
+        "height": 180,
+        "bytes": 7150
+      },
+      {
+        "file": "bkm-tcg-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 12902
+      },
+      {
+        "file": "bkm-tcg-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 19492
+      },
+      {
+        "file": "bkm-tcg-1000.webp",
+        "width": 1000,
+        "height": 563,
+        "bytes": 34816
+      },
+      {
+        "file": "bkm-tcg-1265.webp",
+        "width": 1265,
+        "height": 712,
+        "bytes": 47390
+      }
+    ]
+  },
+  "bkm-tcg-reveal": {
+    "width": 1265,
+    "height": 712,
+    "source": "assets/originals/screenshots/bkm-tcg-reveal.png",
+    "variants": [
+      {
+        "file": "bkm-tcg-reveal-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 18568
+      },
+      {
+        "file": "bkm-tcg-reveal-1000.webp",
+        "width": 1000,
+        "height": 563,
+        "bytes": 34462
+      },
+      {
+        "file": "bkm-tcg-reveal-1265.webp",
+        "width": 1265,
+        "height": 712,
+        "bytes": 47146
+      }
+    ]
+  },
+  "logo-horizontal": {
+    "width": 480,
+    "height": 76,
+    "croppedMaster": [
+      1674,
+      264
+    ],
+    "file": "images\\brand\\logo-horizontal.webp"
+  },
+  "symbol": {
+    "width": 600,
+    "height": 213,
+    "croppedMaster": [
+      886,
+      314
+    ],
+    "file": "images\\brand\\symbol.webp"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "alcar-huma": {
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/projects/alcar-huma-1122.webp",
+    "srcSet": "/images/projects/alcar-huma-320.webp 320w, /images/projects/alcar-huma-480.webp 480w, /images/projects/alcar-huma-640.webp 640w, /images/projects/alcar-huma-1000.webp 1000w, /images/projects/alcar-huma-1122.webp 1122w",
+    "gallery": [
+      {
+        "src": "/images/projects/alcar-huma-1122.webp",
+        "width": 1122,
+        "height": 1402,
+        "alt": "Mockup fornecido pelo proprietário — Alçar Humà"
+      },
+      {
+        "src": "/images/projects/alcar-huma-screen-1600.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Captura real da página inicial — Alçar Humà"
+      },
+      {
+        "src": "/images/projects/full-alcar-huma.webp",
+        "width": 927,
+        "height": 1920,
+        "alt": "Captura real da página completa — Alçar Humà"
+      }
+    ]
+  },
+  "odontologia-fl": {
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/projects/odontologia-fl-1122.webp",
+    "srcSet": "/images/projects/odontologia-fl-320.webp 320w, /images/projects/odontologia-fl-480.webp 480w, /images/projects/odontologia-fl-640.webp 640w, /images/projects/odontologia-fl-1000.webp 1000w, /images/projects/odontologia-fl-1122.webp 1122w",
+    "gallery": [
+      {
+        "src": "/images/projects/odontologia-fl-1122.webp",
+        "width": 1122,
+        "height": 1402,
+        "alt": "Mockup fornecido pelo proprietário — Odontologia FL"
+      },
+      {
+        "src": "/images/projects/odontologia-fl-screen-1600.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Captura real da página inicial — Odontologia FL"
+      },
+      {
+        "src": "/images/projects/full-odontologia-fl.webp",
+        "width": 541,
+        "height": 1920,
+        "alt": "Captura real da página completa — Odontologia FL"
+      }
+    ]
+  },
+  "acquagyn": {
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/projects/acquagyn-1122.webp",
+    "srcSet": "/images/projects/acquagyn-320.webp 320w, /images/projects/acquagyn-480.webp 480w, /images/projects/acquagyn-640.webp 640w, /images/projects/acquagyn-1000.webp 1000w, /images/projects/acquagyn-1122.webp 1122w",
+    "gallery": [
+      {
+        "src": "/images/projects/acquagyn-1122.webp",
+        "width": 1122,
+        "height": 1402,
+        "alt": "Mockup fornecido pelo proprietário — Acquagyn"
+      },
+      {
+        "src": "/images/projects/acquagyn-screen-1600.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Captura real da página inicial — Acquagyn"
+      },
+      {
+        "src": "/images/projects/full-acquagyn.webp",
+        "width": 1099,
+        "height": 1920,
+        "alt": "Captura real da página completa — Acquagyn"
+      }
+    ]
+  },
+  "leandro-kaminise": {
+    "width": 1920,
+    "height": 1080,
+    "src": "/images/projects/leandro-kaminise-1600.webp",
+    "srcSet": "/images/projects/leandro-kaminise-320.webp 320w, /images/projects/leandro-kaminise-480.webp 480w, /images/projects/leandro-kaminise-640.webp 640w, /images/projects/leandro-kaminise-1000.webp 1000w, /images/projects/leandro-kaminise-1600.webp 1600w",
+    "gallery": [
+      {
+        "src": "/images/projects/leandro-kaminise-1600.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Captura real — Leandro Kaminise"
+      },
+      {
+        "src": "/images/projects/full-leandro-kaminise.webp",
+        "width": 366,
+        "height": 1920,
+        "alt": "Captura real da página completa — Leandro Kaminise"
+      }
+    ]
+  },
+  "clube-das-zizas": {
+    "width": 1905,
+    "height": 938,
+    "src": "/images/projects/clube-das-zizas-1600.webp",
+    "srcSet": "/images/projects/clube-das-zizas-320.webp 320w, /images/projects/clube-das-zizas-480.webp 480w, /images/projects/clube-das-zizas-640.webp 640w, /images/projects/clube-das-zizas-1000.webp 1000w, /images/projects/clube-das-zizas-1600.webp 1600w",
+    "gallery": [
+      {
+        "src": "/images/projects/clube-das-zizas-1600.webp",
+        "width": 1905,
+        "height": 938,
+        "alt": "Captura real — Clube das Zizas"
+      },
+      {
+        "src": "/images/projects/full-clube-das-zizas.webp",
+        "width": 385,
+        "height": 1920,
+        "alt": "Captura real da página completa — Clube das Zizas"
+      }
+    ]
+  },
+  "saldanha-moveis": {
+    "width": 1920,
+    "height": 1080,
+    "src": "/images/projects/saldanha-moveis-1600.webp",
+    "srcSet": "/images/projects/saldanha-moveis-320.webp 320w, /images/projects/saldanha-moveis-480.webp 480w, /images/projects/saldanha-moveis-640.webp 640w, /images/projects/saldanha-moveis-1000.webp 1000w, /images/projects/saldanha-moveis-1600.webp 1600w",
+    "gallery": [
+      {
+        "src": "/images/projects/saldanha-moveis-1600.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Captura real — Saldanha Móveis"
+      },
+      {
+        "src": "/images/projects/full-saldanha-moveis.webp",
+        "width": 484,
+        "height": 1920,
+        "alt": "Captura real da página completa — Saldanha Móveis"
+      }
+    ]
+  },
+  "ecos-da-alma": {
+    "width": 1920,
+    "height": 1080,
+    "src": "/images/projects/ecos-da-alma-1600.webp",
+    "srcSet": "/images/projects/ecos-da-alma-320.webp 320w, /images/projects/ecos-da-alma-480.webp 480w, /images/projects/ecos-da-alma-640.webp 640w, /images/projects/ecos-da-alma-1000.webp 1000w, /images/projects/ecos-da-alma-1600.webp 1600w",
+    "gallery": [
+      {
+        "src": "/images/projects/ecos-da-alma-1600.webp",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Captura real — Ecos da Alma"
+      },
+      {
+        "src": "/images/projects/full-ecos-da-alma.webp",
+        "width": 510,
+        "height": 1920,
+        "alt": "Captura real da página completa — Ecos da Alma"
+      }
+    ]
+  },
+  "salon-2-beaute": {
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/projects/salon-2-beaute-1122.webp",
+    "srcSet": "/images/projects/salon-2-beaute-320.webp 320w, /images/projects/salon-2-beaute-480.webp 480w, /images/projects/salon-2-beaute-640.webp 640w, /images/projects/salon-2-beaute-1000.webp 1000w, /images/projects/salon-2-beaute-1122.webp 1122w",
+    "gallery": [
+      {
+        "src": "/images/projects/salon-2-beaute-1122.webp",
+        "width": 1122,
+        "height": 1402,
+        "alt": "Mockup fornecido pelo proprietário — Salon 2Beauté ADN"
+      },
+      {
+        "src": "/images/projects/salon-2-beaute-screen-1265.webp",
+        "width": 1265,
+        "height": 712,
+        "alt": "Captura real da página inicial — Salon 2Beauté ADN"
+      }
+    ]
+  },
+  "brasa": {
+    "width": 1122,
+    "height": 1402,
+    "src": "/images/projects/brasa-1122.webp",
+    "srcSet": "/images/projects/brasa-320.webp 320w, /images/projects/brasa-480.webp 480w, /images/projects/brasa-640.webp 640w, /images/projects/brasa-1000.webp 1000w, /images/projects/brasa-1122.webp 1122w",
+    "gallery": [
+      {
+        "src": "/images/projects/brasa-1122.webp",
+        "width": 1122,
+        "height": 1402,
+        "alt": "Mockup fornecido pelo proprietário — BRASA"
+      },
+      {
+        "src": "/images/projects/brasa-screen-1265.webp",
+        "width": 1265,
+        "height": 712,
+        "alt": "Captura real da página inicial — BRASA"
+      }
+    ]
+  },
+  "bkm-tcg": {
+    "width": 1265,
+    "height": 712,
+    "src": "/images/projects/bkm-tcg-1265.webp",
+    "srcSet": "/images/projects/bkm-tcg-320.webp 320w, /images/projects/bkm-tcg-480.webp 480w, /images/projects/bkm-tcg-640.webp 640w, /images/projects/bkm-tcg-1000.webp 1000w, /images/projects/bkm-tcg-1265.webp 1265w",
+    "gallery": [
+      {
+        "src": "/images/projects/bkm-tcg-1265.webp",
+        "width": 1265,
+        "height": 712,
+        "alt": "Captura real — BKM TCG"
+      },
+      {
+        "src": "/images/projects/bkm-tcg-reveal-1265.webp",
+        "width": 1265,
+        "height": 712,
+        "alt": "Outra etapa da animação real da loja BKM TCG"
+      }
+    ]
+  }
+}

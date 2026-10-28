@@ -1,0 +1,21 @@
+KMZ STUDIO — PACOTE DE IDENTIDADE VISUAL
+
+Paleta: Grafite #111418, Marfim #F7F6F2, Tangerina #FF7847, Tangerina escuro #B73515.
+
+01 Logo principal sobre fundo escuro — 1920x1080 px
+02 Logo principal sobre fundo claro — 1920x1080 px
+03 Logo horizontal fundo escuro — 1920x600 px (cabeçalho / assinatura)
+04 Logo horizontal fundo claro — 1920x600 px
+05 Monograma KMZ isolado sobre fundo escuro — 1024x1024 px
+06 Avatar Instagram — 1080x1080 px
+07 Favicon grande — 256x256 px
+08 Versão reduzida — 512x512 px
+09 Monocromática clara sobre fundo escuro — 1024x1024 px
+10 Monocromática escura sobre fundo claro — 1024x1024 px
+11 Logo principal com fundo transparente — 1920x1080 px
+12 Logo horizontal com fundo transparente — 1920x600 px
+13 Monograma com fundo transparente — 1024x1024 px
+14 Favicon .ico — múltiplos tamanhos 16 a 256 px
+
+NOTA: Imagens individuais recortadas e redimensionadas da arte-base criada por IA.
+São artes PNG rasterizadas, não vetores. Para impressões grandes, restauração fiel ou registro de marca, recomenda-se um desenho vetorial final.
