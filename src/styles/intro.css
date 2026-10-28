@@ -1,0 +1,183 @@
+:root {
+  --intro-surface: #1d2126;
+}
+.intro-filters {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+.brand-intro {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  visibility: hidden;
+  pointer-events: none;
+  overflow: hidden;
+  contain: layout paint;
+}
+.brand-intro__panel {
+  position: absolute;
+  inset: 0;
+  background: var(--intro-surface);
+}
+.brand-intro__mark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: clamp(220px, 25vw, 340px);
+  transform: translate(-50%, -50%);
+}
+.brand-intro__mark img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.brand-intro__outline {
+  filter: url(#kmz-logo-edge);
+  clip-path: inset(0 100% 0 0);
+}
+.brand-intro__fill {
+  position: absolute;
+  inset: 0;
+  clip-path: inset(0 100% 0 0);
+}
+html[data-intro="pending"] .brand-intro,
+html[data-intro="playing"] .brand-intro {
+  visibility: visible;
+}
+html[data-intro="playing"] .brand-intro__panel {
+  will-change: transform;
+}
+.intro-skip {
+  display: none;
+  position: fixed;
+  z-index: 101;
+  right: var(--gutter);
+  bottom: 28px;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  color: var(--paper);
+  background: transparent;
+  padding: 9px 16px;
+  font-size: 11px;
+}
+html[data-intro="pending"] .intro-skip,
+html[data-intro="playing"] .intro-skip {
+  display: inline-flex;
+}
+.intro-skip:hover {
+  border-color: var(--tangerine);
+}
+.intro-replay {
+  border: 0;
+  background: none;
+  display: inline-flex;
+  gap: 9px;
+  align-items: center;
+  color: var(--muted);
+  font-size: 11px;
+  padding: 9px 0;
+}
+.intro-replay span {
+  display: inline-block;
+  color: var(--paper);
+  font-size: 18px;
+  line-height: 1;
+  transition: transform 0.4s var(--ease);
+}
+.intro-replay:hover {
+  color: var(--paper);
+}
+.intro-replay:hover span {
+  transform: rotate(-35deg);
+}
+.hero-art-stage {
+  position: absolute;
+  inset: 0;
+  perspective: 1200px;
+}
+.hero-art-stage > a {
+  position: absolute;
+  display: block;
+  box-shadow: 0 26px 58px #0007;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  overflow: hidden;
+  transform-origin: 50% 50%;
+}
+.works-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 27px;
+  margin-bottom: 90px;
+  padding: 28px 0 0;
+}
+.works-intro .eyebrow {
+  justify-content: center;
+}
+.works-intro h2 {
+  font-size: clamp(42px, 5.4vw, 86px);
+}
+.works-intro > p {
+  display: block;
+  max-width: 430px;
+  text-align: center;
+  padding: 0;
+}
+.works-intro .small-note {
+  margin-top: 18px;
+}
+.selected {
+  overflow: clip;
+}
+@media (max-width: 700px) {
+  .brand-intro__mark {
+    width: min(62vw, 260px);
+  }
+  .intro-skip {
+    bottom: 24px;
+    font-size: 10px;
+  }
+  .intro-replay {
+    font-size: 9px;
+    gap: 6px;
+  }
+  .intro-replay span {
+    font-size: 16px;
+  }
+  .hero-bottom > p {
+    display: none;
+  }
+  .works-intro {
+    gap: 23px;
+    padding-top: 5px;
+    margin-bottom: 42px;
+  }
+  .works-intro h2 {
+    font-size: clamp(39px, 10.5vw, 52px);
+    max-width: 520px;
+  }
+  .works-intro > p {
+    margin-top: 0;
+    font-size: 13px;
+  }
+  .works-intro .small-note {
+    margin-top: 18px;
+  }
+}
+html[data-motion="reduced"] .intro-replay {
+  display: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .brand-intro,
+  .intro-skip,
+  .intro-replay {
+    display: none !important;
+  }
+}

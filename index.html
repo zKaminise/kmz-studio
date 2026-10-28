@@ -4,6 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#111418" />
+    <script>
+      (() => {
+        const html = document.documentElement;
+        try {
+          const reduced =
+            matchMedia("(prefers-reduced-motion: reduce)").matches ||
+            localStorage.getItem("kmz-studio:reduced-motion") === "true";
+          const restored =
+            performance.getEntriesByType("navigation")[0]?.type ===
+            "back_forward";
+          html.dataset.intro =
+            location.pathname === "/" && !reduced && !restored
+              ? "pending"
+              : "disabled";
+          // Fail open when the animation chunk cannot load; this never waits for assets.
+          if (html.dataset.intro === "pending")
+            setTimeout(() => {
+              if (html.dataset.intro === "pending") html.dataset.intro = "done";
+            }, 2600);
+        } catch {
+          html.dataset.intro = "disabled";
+        }
+        addEventListener("pageshow", (event) => {
+          if (event.persisted) html.dataset.intro = "done";
+        });
+      })();
+    </script>
     <title>KMZ Studio — Sites e sistemas com identidade</title>
     <meta
       name="description"

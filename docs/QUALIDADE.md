@@ -1,6 +1,6 @@
 # Verificação de qualidade — KMZ Studio
 
-Data da entrega: 27 de outubro de 2026, horário de São Paulo.
+Atualizado em 28 de outubro de 2026, horário de São Paulo, após a nova abertura.
 
 ## Código e publicação
 
@@ -22,19 +22,19 @@ O preview foi corrigido para servir o HTML exato das URLs sem extensão. Isso ev
 
 ## Lighthouse medido
 
-Lighthouse 12.8.2, navegação mobile com limitação simulada, build de produção servido localmente em `http://127.0.0.1:4174/`. Execução: 27/10/2026 às 21:20, horário de São Paulo.
+Lighthouse 12.8.2, navegação mobile com limitação simulada, build de produção da nova abertura servido localmente em `http://127.0.0.1:4175/`. Execução em 28/10/2026, horário de São Paulo. As medidas anteriores 98/LCP 2,3 s pertencem à versão sem a abertura.
 
 | Categoria      | Nota |
 | -------------- | ---: |
-| Desempenho     |   98 |
+| Desempenho     |   96 |
 | Acessibilidade |  100 |
 | Boas práticas  |  100 |
 | SEO            |  100 |
 
 | Métrica de laboratório   | Valor |
 | ------------------------ | ----: |
-| First Contentful Paint   | 1,2 s |
-| Largest Contentful Paint | 2,3 s |
+| First Contentful Paint   | 1,4 s |
+| Largest Contentful Paint | 2,6 s |
 | Cumulative Layout Shift  | 0,001 |
 | Total Blocking Time      |  0 ms |
 

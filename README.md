@@ -10,6 +10,12 @@ Implementação oficial preparada para `https://kmzstudio.com.br`, em `D:\Import
 - As 16 páginas públicas, 404, sitemap e assets foram verificados na hospedagem. Consulte `docs/publicacao.md`.
 - O formulário depende das credenciais de envio abaixo. WhatsApp e links de e-mail já usam os contatos autorizados.
 
+## Abertura e movimento
+
+A homepage abre com a logo oficial em contorno, preenchimento prata/tangerina e uma cortina grafite que sobe para revelar o título e os mockups. A mesma sequência funciona no desktop e no celular, com distâncias adaptadas. O scroll continua nativo até a introdução centralizada dos projetos e seus cards alternados.
+
+“Pular abertura”, Escape, Tab ou o primeiro gesto de scroll liberam a página imediatamente. “Rever abertura” repete a sequência. Movimento reduzido desliga a abertura; sem JavaScript, o conteúdo permanece disponível. O efeito usa o asset real da marca, sem redesenhá-la. Consulte `docs/motion.md` e `docs/QA-motion.md`.
+
 ## Rodar e verificar
 
 Node.js 22.12+ e npm. A base foi instalada e testada com Node 22.20.
@@ -37,6 +43,8 @@ npm run qa:browser
 ```
 
 `QA_CHROME` pode apontar para outro executável Chromium. As evidências ficam em `work/qa`. O teste simula a resposta de sucesso do provedor; não envia e-mail real.
+
+Para o teste específico da abertura, use `npm run qa:motion` com `QA_URL` apontando ao preview. Ele confere as seis larguras, as fases da marca/cortina, replay, interrupção, redução de movimento e funcionamento sem JavaScript.
 
 ## Arquitetura entregue
 

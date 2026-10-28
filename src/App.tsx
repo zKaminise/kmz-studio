@@ -13,7 +13,11 @@ import { Portfolio, ProjectCard, ProjectImage } from "@/components/Projects";
 import { images } from "@/data/images";
 import { About, FAQ, Process, Services } from "@/components/Sections";
 import ContactForm from "@/components/ContactForm";
-import { useMotionPreference } from "@/hooks/useMotionPreference";
+import { Opening, ReplayOpening } from "@/components/Opening";
+import {
+  isMotionReduced,
+  useMotionPreference,
+} from "@/hooks/useMotionPreference";
 import { captureOrigin, track } from "@/lib/analytics";
 
 function Hero() {
@@ -54,28 +58,30 @@ function Hero() {
         </div>
       </div>
       <div className="hero-art" aria-label="Projetos reais da KMZ Studio">
-        <a
-          href="/projetos/alcar-huma"
-          className="hero-art-back"
-          aria-label="Explorar Alçar Humà"
-        >
-          <ProjectImage
-            slug="alcar-huma"
-            hero
-            sizes="(max-width: 700px) 40vw, 24vw"
-          />
-        </a>
-        <a
-          href="/projetos/acquagyn"
-          className="hero-art-front"
-          aria-label="Explorar Acquagyn"
-        >
-          <ProjectImage
-            slug="acquagyn"
-            hero
-            sizes="(max-width: 700px) 55vw, 29vw"
-          />
-        </a>
+        <div className="hero-art-stage">
+          <a
+            href="/projetos/alcar-huma"
+            className="hero-art-back"
+            aria-label="Explorar Alçar Humà"
+          >
+            <ProjectImage
+              slug="alcar-huma"
+              hero
+              sizes="(max-width: 700px) 40vw, 24vw"
+            />
+          </a>
+          <a
+            href="/projetos/acquagyn"
+            className="hero-art-front"
+            aria-label="Explorar Acquagyn"
+          >
+            <ProjectImage
+              slug="acquagyn"
+              hero
+              sizes="(max-width: 700px) 55vw, 29vw"
+            />
+          </a>
+        </div>
         <div className="art-note">
           <span className="tiny-dot" />
           TRABALHOS REAIS. IDEIAS ÚNICAS.
@@ -90,7 +96,7 @@ function Hero() {
           <br />
           UBERLÂNDIA, MG — BRASIL
         </p>
-        <span className="hero-index">DESIGN + DEVELOPMENT</span>
+        <ReplayOpening />
       </div>
     </section>
   );
@@ -98,6 +104,7 @@ function Hero() {
 function Home() {
   return (
     <>
+      <Opening />
       <Hero />
       <section className="selected section" id="projetos">
         <div className="works-intro" data-reveal>
@@ -107,8 +114,7 @@ function Home() {
               UMA SELEÇÃO DO QUE FAZEMOS
             </p>
             <h2>
-              Projetos
-              <br />
+              Projetos{" "}
               <span className="muted">
                 selecionados<span className="accent">.</span>
               </span>
@@ -470,12 +476,20 @@ export default function App({
   useEffect(captureOrigin, []);
   useEffect(() => {
     document.documentElement.dataset.motion = reduced ? "reduced" : "full";
-    if (reduced) return;
+    if (reduced) {
+      if (isMotionReduced())
+        document.documentElement.dataset.intro = "disabled";
+      return;
+    }
     let dispose: (() => void) | undefined;
     let cancelled = false;
-    import("@/lib/animate").then(({ animate }) => {
-      if (!cancelled) dispose = animate();
-    });
+    import("@/lib/animate")
+      .then(({ animate }) => {
+        if (!cancelled) dispose = animate();
+      })
+      .catch(() => {
+        document.documentElement.dataset.intro = "disabled";
+      });
     return () => {
       cancelled = true;
       dispose?.();

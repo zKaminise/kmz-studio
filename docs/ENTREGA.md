@@ -39,7 +39,7 @@ Os dez cases têm 2–3 imagens reais. As versões WebP incluem tamanhos menores
 - Dez URLs externas verificadas com HTTP 200 na auditoria. Nenhum erro inesperado de JavaScript/hidratação no teste final.
 - Dependências atualizadas com correções compatíveis; auditoria npm com zero vulnerabilidades.
 
-Lighthouse mobile local: **98 desempenho / 100 acessibilidade / 100 boas práticas / 100 SEO**. LCP **2,3 s**, CLS **0,001**, TBT **0 ms**. São medidas de laboratório; INP e Core Web Vitals de usuários reais dependem do site publicado.
+Após a nova abertura, Lighthouse mobile local: **96 desempenho / 100 acessibilidade / 100 boas práticas / 100 SEO**. LCP **2,6 s**, CLS **0,001**, TBT **0 ms**. São medidas de laboratório; INP e Core Web Vitals de usuários reais dependem do site publicado. A sequência contorno → preenchimento → cortina foi verificada em 72 testes adicionais, descritos em `QA-motion.md`.
 
 ## Contato e publicação
 

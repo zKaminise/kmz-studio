@@ -35,3 +35,4 @@ export function toggleMotionReduction() {
   }
   listeners.forEach((l) => l());
 }
+export const isMotionReduced = () => manual || !!query?.matches;
