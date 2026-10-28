@@ -10,7 +10,7 @@ Data da entrega: 27 de outubro de 2026, horário de São Paulo.
 | ----------------------------- | ------------------------------------------------------------ |
 | TypeScript estrito (`tsc -b`) | Passou                                                       |
 | ESLint                        | Passou, sem avisos                                           |
-| Testes Node do contato        | 12/12 passaram                                               |
+| Testes Node do contato        | 13/13 passaram                                               |
 | Vite build + pré-renderização | Passou; 17 páginas HTML                                      |
 | Auditoria do build            | Passou; 10 cases, imagens locais, links internos e metadados |
 | Sitemap                       | 16 URLs públicas; 404 excluído                               |
@@ -63,6 +63,6 @@ Consulte `QA-browser.md` para o resultado completo. Capturas e relatório estrut
 ## O que depende do proprietário
 
 1. Configurar as credenciais de e-mail e o remetente verificado, para testar recebimento real do formulário.
-2. Publicar na conta Vercel e configurar o domínio/DNS; confirmar HTTPS e operação em produção.
+2. Configurar futuramente o domínio próprio/DNS; a versão Vercel está publicada e foi verificada conforme `publicacao.md`.
 
 Não há logo, mockup ou fotografia obrigatória ausente. Analytics é opcional e está desativado sem identificador. O site anterior e seu DNS permanecem preservados.

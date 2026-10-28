@@ -32,7 +32,7 @@ Os dez cases têm 2–3 imagens reais. As versões WebP incluem tamanhos menores
 ## Verificações concluídas
 
 - Typecheck, lint sem avisos, build e auditoria de arquivos publicados passaram.
-- 12/12 testes do backend e 168/168 verificações de navegador passaram.
+- 13/13 testes do backend e 168/168 verificações de navegador passaram.
 - Homepage testada em 360, 390, 768, 1024, 1440 e 1920 px; demais rotas em 390 e 1440 px.
 - Menu e FAQ por teclado, filtros, imagens, links, campos, feedback e movimento reduzido verificados.
 - Chromium e WebKit executados. Firefox não iniciou neste ambiente.
@@ -47,11 +47,11 @@ E-mail e WhatsApp autorizados estão configurados e centralizados para troca fut
 
 O backend do formulário está implementado com validação, honeypot, limite básico, timeout e confirmação do provedor. Sem credenciais de envio, ele informa a indisponibilidade, mantém os campos e oferece os contatos alternativos. O fluxo de sucesso foi testado com transporte simulado; nenhum e-mail real foi enviado.
 
-O `README.md` contém os comandos para executar, verificar e publicar na Vercel, as variáveis necessárias e as etapas de domínio. O projeto inclui `vercel.json` e `.env.example`. Não houve deploy, alteração de DNS nem redirecionamento do domínio anterior.
+O site está publicado em [kmz-studio.vercel.app](https://kmz-studio.vercel.app) e o código está em [zKaminise/kmz-studio](https://github.com/zKaminise/kmz-studio), branch `main`, conectado à Vercel. As verificações públicas estão em `publicacao.md`. O projeto inclui `vercel.json` e `.env.example`. DNS e redirecionamentos do domínio anterior permanecem preservados.
 
 ## Pendências do proprietário
 
 1. Configurar `RESEND_API_KEY` e um `CONTACT_FROM_EMAIL` com domínio verificado para confirmar o recebimento real do formulário.
-2. Publicar na sua conta Vercel e configurar `kmzstudio.com.br` com os registros indicados pelo painel, verificando HTTPS e operação em produção.
+2. Configurar futuramente `kmzstudio.com.br` com os registros indicados pelo painel, verificando HTTPS e operação no domínio próprio.
 
 Analytics permanece opcional e desligado sem ID. WhatsApp/e-mail corporativos podem ser substituídos futuramente em uma única configuração.

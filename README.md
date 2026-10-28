@@ -2,6 +2,14 @@
 
 Implementação oficial preparada para `https://kmzstudio.com.br`, em `D:\Importante\Codex\LP KMZ Studio`.
 
+## Publicação atual
+
+- Site público: [kmz-studio.vercel.app](https://kmz-studio.vercel.app).
+- Repositório: [zKaminise/kmz-studio](https://github.com/zKaminise/kmz-studio), branch `main`, conectado à Vercel.
+- Configuração de hospedagem: Vite, Node.js 22.x, build `npm run build`, saída `dist` e função `/api/contact`.
+- As 16 páginas públicas, 404, sitemap e assets foram verificados na hospedagem. Consulte `docs/publicacao.md`.
+- O formulário depende das credenciais de envio abaixo. WhatsApp e links de e-mail já usam os contatos autorizados.
+
 ## Rodar e verificar
 
 Node.js 22.12+ e npm. A base foi instalada e testada com Node 22.20.
@@ -93,12 +101,12 @@ Após configurar, faça uma solicitação de teste no domínio publicado, confir
 
 1. Importe esta pasta como projeto Vite. Comando: `npm run build`; saída: `dist`; Node: 22.x. O `vercel.json` já declara estas opções.
 2. Configure as variáveis anteriores para os ambientes desejados. As funções `/api` são publicadas junto do build; publicar apenas `dist` em hospedagem estática não executa o formulário.
-3. Gere um deployment de preview e revise navegação, cases, imagens, API e contato. Previews Vercel aceitam a origem do deployment indicada por `VERCEL_URL`.
+3. Gere um deployment de preview e revise navegação, cases, imagens, API e contato. A API aceita os hosts confiáveis fornecidos pela Vercel em `VERCEL_URL` e, na produção, `VERCEL_PROJECT_PRODUCTION_URL`, além do domínio configurado em `SITE_URL`.
 4. Em **Settings → Domains**, adicione `kmzstudio.com.br` e `www.kmzstudio.com.br`. Use exatamente os registros DNS que a Vercel apresentar para este projeto. Não há registros fixos inventados nesta entrega. Preserve os registros MX/TXT do e-mail.
 5. Defina `kmzstudio.com.br` como principal e redirecione `www` no painel. Confirme DNS, certificado HTTPS e acesso ao domínio final antes de alterar a versão anterior.
 6. Reimplante após alterar variáveis de build. Verifique `/sitemap.xml`, os dez cases, um caminho inexistente e o envio de teste.
 
-Alternativa por CLI, autenticado na sua conta: `npx vercel` para preview e `npx vercel --prod` para produção. Não houve autenticação, deploy, alteração de DNS ou redirecionamento do site anterior nesta execução.
+Alternativa por CLI, autenticado na sua conta: `npx vercel` para preview e `npx vercel --prod` para produção. O projeto está publicado no endereço Vercel acima. DNS e redirecionamentos do site anterior permanecem preservados.
 
 ## Analytics e privacidade
 
@@ -108,4 +116,4 @@ Sem ID configurado, nenhum analytics é carregado. Com GA4 válido, o script só
 
 Auditoria anterior: `docs/auditoria-inicial.md` e `docs/AUDITORIA-REFERENCIAS.md`. Inventário de assets: `docs/assets.md`. Backend: `docs/contato.md`. Navegador e métricas: `docs/QA-browser.md` e `docs/QUALIDADE.md`.
 
-Pendências do proprietário: credenciais de envio/remetente verificado e acesso à conta Vercel/DNS para publicar e testar a entrega final. Não há logo ou mockup obrigatório ausente.
+Pendências do proprietário: credenciais de envio/remetente verificado e configuração futura do domínio próprio/DNS. Não há logo ou mockup obrigatório ausente.

@@ -19,7 +19,7 @@ Não é permitido definir destinatário pelo navegador. O e-mail da pessoa fica 
 
 Sem as credenciais, a API retorna HTTP 503 com uma mensagem honesta de indisponibilidade. Nenhum envio real foi realizado durante a implementação. Os testes de sucesso usam um transporte simulado e não comprovam entrega de e-mail em produção.
 
-O domínio principal e a variante `www` são aceitos como origem. Na prévia Vercel, o host `VERCEL_URL` só é aceito quando `VERCEL_ENV=preview`. Em desenvolvimento, somente origens HTTP de loopback são liberadas adicionalmente. A Vercel fornece essas duas variáveis automaticamente. Se usar outro domínio, atualize `SITE_URL`.
+O domínio principal e a variante `www` são aceitos como origem. Em deployments Vercel de preview/produção, o host confiável `VERCEL_URL` também é aceito; na produção, o alias do projeto em `VERCEL_PROJECT_PRODUCTION_URL` é aceito. Apenas hosts `*.vercel.app` fornecidos por essas variáveis da plataforma são liberados, sem confiar no header Host de quem envia. Em desenvolvimento, somente origens HTTP de loopback são liberadas adicionalmente. Se usar outro domínio próprio, atualize `SITE_URL`.
 
 ## Proteção contra abuso
 
